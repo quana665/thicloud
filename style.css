@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://tse4.mm.bing.net/th?id=OIP.Q4O9t1SRvVUpE7n6KHQA0AHaEo&pid=Api&P=0&h=220);  
+  background-size: cover;
+}
+
+.calculator {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  font-size: 32px;
+  padding: 10px;
+  background-color:#BEBEBE;
+  color:#FF6666;
+  text-align: right;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.display:hover{
+    background-color:#696969;
+    color: #009999;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  font-size: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #d1d1d1;
+}
+
+.operator {
+  background-color:palevioletred;
+  color:cornsilk;
+  font-weight: bold;
+}
+
+.operator:hover {
+  background-color:#00FFCC;
+}
+
+.equal {
+  background-color: #318585;
+  color: white;
+  width: 65px;
+}
+
+.equal:hover {
+  background-color:#00ff84;
+}
+.bt {
+    color: #318585;
+    background-color: #d1d1d1;
+}
+.bt:hover{
+    color: #FF6666;
+    font-weight: bold;
+    background-color:#00ff84;
+}
